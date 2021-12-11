@@ -1,0 +1,514 @@
+@media screen and (max-width: 800px) {
+    .Lista-Inicio {
+        width: 100%;
+    }
+    .Titulos {
+        width: 100%;
+    }
+
+    .Box {
+        width: 100%;
+    }
+}
+
+/*
+.Fondo {
+    background:rgb(221, 94, 94)
+}
+*/
+
+
+.Lista-Inicio {
+    background: rgba(24, 23, 23, 0.521);
+    font-size: 25px;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around; 
+    margin: 10px;
+    border: #072;
+}
+
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+.Logo1 {
+    height: auto;
+    width: auto;
+    max-height: 100px;
+    max-width: 100px;
+    align-items: flex-end;
+}
+
+
+.Fotoprincipal {
+    display: flex;
+    justify-content:flex-start;
+    background: black;
+    justify-content: space-between;
+
+}
+
+.fotosp {
+    width: 100%;
+    height: 100vh;
+    padding-top: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Box {
+    width: 50vh;
+    height: 50vh;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    margin: 1.5%;
+    
+}
+
+.txt {
+    font-size: 22px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.Box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.Box .txt {
+    width: 0%;
+    height: 50vh;
+    background-color: rgba(97, 92, 92, 0.507);
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    transition: 0.4s;
+}
+
+.txt .h1 {
+    color: aquamarine;
+    text-shadow: 1px 1px 1px black;
+    font-size: 2.5em;
+    text-transform: uppercase;
+}
+
+.Box:hover .txt {
+    width: 100%;
+}
+
+
+
+.Alvaro {
+    display: flex;
+    padding: 10px;
+    height: auto;
+    width: auto;
+    max-height: 350px;
+    max-width: 350px;
+    align-items: center;
+    padding:inherit;
+}
+
+.Gustavo {
+    display: flex;
+    padding: 10px;
+    height: auto;
+    width: auto;
+    max-height: 350px;
+    max-width: 350px;
+    align-items: center;
+    padding:inherit;
+}
+
+.Roberto {
+    display: flex;
+    padding: 10px;
+    height: auto;
+    width: auto;
+    max-height: 350px;
+    max-width: 350px;
+    align-items: center;
+    padding:inherit;
+}
+
+.Tavella {
+    display: flex;
+    padding: 10px;
+    height: auto;
+    width: auto;
+    max-height: 350px;
+    max-width: 350px;
+    align-items: center;
+    padding:inherit;
+}
+.Santiago {
+    display: flex;
+    padding: 10px;
+    height: auto;
+    width: auto;
+    max-height: 350px;
+    max-width: 350px;
+    align-items: center;
+    padding:inherit;
+}
+
+
+/*
+.Gustavo {
+    display: flex;
+    padding: 10px;
+    height:auto;
+    width: auto;
+    max-width: 450px;
+    max-height: 450px;
+    align-items: center;
+}
+
+
+
+.Roberto {
+    display: flex;
+    padding: 10px;
+    height: auto;
+    width: auto;
+    max-width: 450px;
+    max-height: 450px;
+    align-items: center;
+}
+
+.Santiago {
+    display: flex;
+    padding: 10px;
+    height: auto;
+    width: auto;
+    max-height: 450px;
+    max-width: 450px;
+    align-items: center;
+}
+
+.Tavella {
+    display: flex;
+    padding: 10px;
+    height: auto;
+    width: auto;
+    max-height: 450px;
+    max-width: 450px;
+    align-items: center;
+}
+*/
+
+
+.Titulos {
+    color: white;
+    font-size: 60px;
+    padding: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-left: 150px;
+    padding-bottom: 100px;
+}
+
+.Biografia {
+    display: flex;
+    background: salmon;
+
+}
+
+
+
+/*
+.Parrafo1 .Parrafo2 .Parrafo3 .Parrafo4 {
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif ;
+    display: flex;
+    color: white;
+}
+*/
+
+.Parrafo1 {
+    border: grey;
+    padding: 5px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    color: white;
+}
+
+.Parrafo2 {
+    border: grey;
+    padding: 5px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    color: white;
+}
+
+.Parrafo3 {
+    border: grey;
+    padding: 5px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    color: white;
+}
+
+.Parrafo4 {
+    border: grey;
+    padding: 5px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    color: white;
+}
+
+
+.Merch {
+    height: auto;
+    width: auto;
+    max-width: 300px;
+    max-height: 300px;
+    display: grid;
+    grid-template-columns: repeat(auto, fill, minmax (250px, 1fr));
+
+}
+
+
+.Reci {
+    font-size: 75px ;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    padding-left: 300px;
+}
+
+.grid-discos {
+    height: auto;
+    width: auto;
+    max-height: 150px;
+    max-width: 150px;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap; 
+    padding-left: 75px;
+}
+
+.grid-discos img {
+    width: 250px;
+    height: 250px;
+    padding: 20px;
+    border-radius: 40px;
+}
+
+
+.RedesSociales {
+    display: flex;
+    margin: 15px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+}
+
+.Iconos {
+    margin: 15px;
+    width: auto;
+    height: auto;
+    max-width: 80px;
+}
+
+
+.body-color {
+    background-color: transparent;
+
+}
+/*
+.container {
+    background: royalblue;
+    padding: 20px 5px ;
+}
+*/
+
+.Formulario {
+    width: 400px;
+    background: #24303c;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    color: white;
+}
+
+
+.Formulario h4 {
+    font: size 22px;
+    margin-bottom: 20px;
+}
+
+.Control {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+}
+
+.Formulario register p {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.Formulario a {
+    color: white;
+    text-decoration: none;
+
+}
+
+.Formulario a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.botons {
+    width: 100%;
+    background: #1f53c5;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+}
+
+.Fotormulario {
+    padding-left: 100px;
+}
+
+.Canciones {
+    color: black;
+    font-size: 15px;
+}
+
+
+.prox {
+    color: white;
+    font-size: 10vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 100px;
+}
+
+
+
+body{
+    background: black;
+  }
+  
+  svg{
+    width: 600px;
+    height: 120px;
+    display: block;
+    position: relative;
+    overflow: hidden; 
+    margin: 0 auto;
+    background: rgb(2, 2, 2);
+  }
+
+
+  @import url(https://fonts.googleapis.com/css?family=Varela+Round);
+
+body {
+  background: hsla(0, 0%, 0%, .9); 
+}
+
+h1 {
+  color: hsla(0, 0%, 0%, .9);
+  font: normal 140px Varela Round, sans-serif;
+  height: 140px;
+  left: 0;
+  letter-spacing: 5px;
+  margin: -80px 0 0 0;
+  position: absolute;
+  justify-content: center;
+  text-align: center;
+  text-transform: uppercase;
+  top: 50%;
+  width: 100%;
+  animation: move linear 2000ms infinite;  
+}
+
+@keyframes move {
+  0% {
+    text-shadow:
+      4px -4px 0 hsla(0, 100%, 50%, 1), 
+      3px -3px 0 hsla(0, 100%, 50%, 1), 
+      2px -2px 0 hsla(0, 100%, 50%, 1), 
+      1px -1px 0 hsla(0, 100%, 50%, 1),
+      -4px 4px 0 hsla(180, 100%, 50%, 1), 
+      -3px 3px 0 hsla(180, 100%, 50%, 1), 
+      -2px 2px 0 hsla(180, 100%, 50%, 1), 
+      -1px 1px 0 hsla(180, 100%, 50%, 1)
+    ;
+  }
+  25% {    
+    text-shadow:      
+      -4px -4px 0 hsla(180, 100%, 50%, 1), 
+      -3px -3px 0 hsla(180, 100%, 50%, 1), 
+      -2px -2px 0 hsla(180, 100%, 50%, 1), 
+      -1px -1px 0 hsla(180, 100%, 50%, 1),
+      4px 4px 0 hsla(0, 100%, 50%, 1), 
+      3px 3px 0 hsla(0, 100%, 50%, 1), 
+      2px 2px 0 hsla(0, 100%, 50%, 1), 
+      1px 1px 0 hsla(0, 100%, 50%, 1)      
+    ;
+  }
+  50% {
+    text-shadow:
+      -4px 4px 0 hsla(0, 100%, 50%, 1), 
+      -3px 3px 0 hsla(0, 100%, 50%, 1), 
+      -2px 2px 0 hsla(0, 100%, 50%, 1), 
+      -1px 1px 0 hsla(0, 100%, 50%, 1),
+      4px -4px 0 hsla(180, 100%, 50%, 1), 
+      3px -3px 0 hsla(180, 100%, 50%, 1), 
+      2px -2px 0 hsla(180, 100%, 50%, 1), 
+      1px -1px 0 hsla(180, 100%, 50%, 1)
+    ;
+  }
+  75% {
+    text-shadow:
+      4px 4px 0 hsla(180, 100%, 50%, 1), 
+      3px 3px 0 hsla(180, 100%, 50%, 1), 
+      2px 2px 0 hsla(180, 100%, 50%, 1), 
+      1px 1px 0 hsla(180, 100%, 50%, 1),
+      -4px -4px 0 hsla(0, 100%, 50%, 1), 
+      -3px -3px 0 hsla(0, 100%, 50%, 1), 
+      -2px -2px 0 hsla(0, 100%, 50%, 1), 
+      -1px -1px 0 hsla(0, 100%, 50%, 1)      
+    ;
+  }
+  100% {
+    text-shadow:
+      4px -4px 0 hsla(0, 100%, 50%, 1), 
+      3px -3px 0 hsla(0, 100%, 50%, 1), 
+      2px -2px 0 hsla(0, 100%, 50%, 1), 
+      1px -1px 0 hsla(0, 100%, 50%, 1),
+      -4px 4px 0 hsla(180, 100%, 50%, 1), 
+      -3px 3px 0 hsla(180, 100%, 50%, 1), 
+      -2px 2px 0 hsla(180, 100%, 50%, 1), 
+      -1px 1px 0 hsla(180, 100%, 50%, 1)
+    ;
+  }  
+}
